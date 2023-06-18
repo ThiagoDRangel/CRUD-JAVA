@@ -1,58 +1,33 @@
-# Arquivos e diretórios específicos do IntelliJ IDEA
-.idea/
-
-# Arquivos compilados
+HELP.md
 target/
-build/
-bin/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
 
-# Arquivos de log
-*.log
-
-# Dependências gerenciadas pelo Maven
-# (altere para Gradle se estiver usando o Gradle)
-# Ignorar diretório .m2 para usuários do Maven
-~/.m2/
-
-# Arquivos de configuração do Spring
-application.properties
-
-# Arquivos de log do Spring
-spring.log
-
-# Arquivos gerados pelo Spring Boot DevTools
-restart.txt
-
-# Arquivos de cache do Spring
-.springBeans
-
-# Diretório gerado pelo Spring Boot
-spring-boot-starter-parent/
-
-# Arquivos de configuração do Eclipse
+### STS ###
+.apt_generated
 .classpath
+.factorypath
 .project
-.settings/
+.settings
+.springBeans
+.sts4-cache
 
-# Arquivos de configuração do NetBeans
-nbproject/private/
-
-# Arquivos de configuração do Visual Studio Code
-.vscode/
-
-# Arquivos de configuração do IntelliJ IDEA
+### IntelliJ IDEA ###
+.idea
+*.iws
 *.iml
 *.ipr
-*.iws
-out/
 
-# Arquivos de configuração do Eclipse
-.metadata/
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
 
-# Arquivos de configuração do NetBeans
-nbproject/
-
-# Outros arquivos e diretórios
-*~
-*.swp
-.DS_Store
+### VS Code ###
+.vscode/
