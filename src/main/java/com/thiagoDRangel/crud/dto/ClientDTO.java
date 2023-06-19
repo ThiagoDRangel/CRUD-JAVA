@@ -12,12 +12,12 @@ public class ClientDTO {
     @Size(min = 3, max = 60, message = "O nome deve ter entre 3 a 60 caracteres")
     @NotBlank(message = "Campo Obrigatório")
     private String name;
-    @Pattern(regexp = "\\d{3}\\.\\d{3}\\.\\d{3}-\\d{2}", message = "Dados inválidos")
+
     private String cpf;
     private Double income;
     @PastOrPresent
     private LocalDate birthDate;
-    @Size(min = 0, message = "Insira o valor correto")
+
     private Integer children;
 
     public ClientDTO(Long id, String name, String cpf, Double income, LocalDate birthDate, Integer children) {
